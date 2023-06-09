@@ -1,7 +1,7 @@
-package controller;
+package com.example.mapstructlearning.controller;
 
-import dto.ContactDTO;
-import entity.Contact;
+import com.example.mapstructlearning.dto.ContactDTO;
+import com.example.mapstructlearning.entity.Contact;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import service.ContactService;
+import com.example.mapstructlearning.service.ContactService;
 
 import java.util.List;
 

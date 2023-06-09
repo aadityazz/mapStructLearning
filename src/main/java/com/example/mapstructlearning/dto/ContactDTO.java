@@ -1,4 +1,4 @@
-package dto;
+package com.example.mapstructlearning.dto;
 
 import lombok.Data;
 

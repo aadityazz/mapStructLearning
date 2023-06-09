@@ -1,4 +1,4 @@
-package entity;
+package com.example.mapstructlearning.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;

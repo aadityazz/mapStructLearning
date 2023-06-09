@@ -1,7 +1,7 @@
-package mapper;
+package com.example.mapstructlearning.mapper;
 
-import dto.ContactDTO;
-import entity.Contact;
+import com.example.mapstructlearning.dto.ContactDTO;
+import com.example.mapstructlearning.entity.Contact;
 import org.mapstruct.Mapper;
 
 import java.util.List;

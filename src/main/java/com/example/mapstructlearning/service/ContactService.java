@@ -1,11 +1,11 @@
-package service;
+package com.example.mapstructlearning.service;
 
-import dto.ContactDTO;
-import entity.Contact;
-import mapper.ContactMapper;
+import com.example.mapstructlearning.dto.ContactDTO;
+import com.example.mapstructlearning.entity.Contact;
+import com.example.mapstructlearning.mapper.ContactMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repository.ContactRepository;
+import com.example.mapstructlearning.repository.ContactRepository;
 
 import java.util.List;
 
